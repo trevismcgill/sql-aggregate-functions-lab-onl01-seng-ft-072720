@@ -13,5 +13,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "sqlite3> SELECT AVG (gpa) FROM students;"
+  "SELECT AVG(gpa) FROM students;"
 end
